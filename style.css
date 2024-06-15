@@ -1,0 +1,273 @@
+.title{
+    color:black
+}
+.info{
+    display: flex;
+    justify-content:flex-start;
+}
+
+body{
+    background-color: pink;
+}
+
+.details{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: -38px;
+}
+.logo{
+    position: relative;
+    top: -75px;
+    left: 7px;
+}
+a:hover
+{
+background-color:lightpink;
+}
+h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    text-transform: uppercase;
+}
+a{
+    text-decoration: underline;
+}
+p{
+    font-size: 15px;
+}
+h2{
+    color: #cc8899;
+}
+.product-title{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-right: 2%;
+  
+}
+.text{
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -1%;
+}
+.products{
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+}
+.price_product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price_product span{
+    text-decoration: line-through;
+}
+.product_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.test{
+    width: 470px;
+    height: 500px;
+    background-image: url('https://kyliecosmetics.com/cdn/shop/files/KJC_MULTI_23_Holiday_CP_01_WS_1488b3d8-4dc2-443a-b6b0-e0da9bd3de24.jpg?crop=center&height=625&v=1702371474&width=476');
+    padding-top: 100px;
+}
+.lip_liners{
+    background-image: url('https://kyliecosmetics.com/cdn/shop/files/1206_PPLL_reveal-banner_desktop_OPT-3_6c03bf0f-f924-42d0-b879-c5cd0c5b9cb7.jpg?crop=center&height=1616&v=1702369046&width=2880');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 180px;
+    position: relative;
+}
+    .button2{
+        padding: 340px;
+        padding-left: 60px;
+        margin-bottom: 30px;
+    
+    }
+    .button2 a{
+        border: 1px solid black;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: lightgray;
+        color: black;
+    }
+    .button2 a:hover{
+        background-color: black;
+        color:white;
+}
+.lip_liners h4{
+    position: absolute;
+    top: 100px;
+    left: 63px;
+    color:#cc8899;
+    font-size: 15px;
+    font-family: cursive; 
+}
+.lip_liners h1{
+        position: absolute;
+        top: 120px;
+        left: 63px;
+        color:#cc8899;
+        font-size: 35px;
+        font-family: monospace; 
+}
+        .lip_liners h2{
+        position: absolute;
+        top: 150px;
+        left: 63px;
+        color:#cc8899;
+        font-size: 35px;
+        font-family: monospace; 
+        }
+    .lip_liners h5{
+        position: absolute;
+        top: 210px;
+        left: 63px;
+        font-size: 18px;
+        font-style: oblique;
+    }
+    .lip_liners h6{
+        position: absolute;
+        top: 240px;
+        left: 63px;
+        font-size: 18px;
+        font-style: oblique;
+    }
+.holiday_title{
+    text-align: center;
+    font-size: 15px;
+    color: #cc8899;
+    margin-bottom: 60px;
+    margin-top: -75px;
+}
+.gifts_title h2{
+    color:white;
+    margin-left: 100px;
+    margin-top: 180px;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.test2{
+    width: 470px;
+    height: 500px;
+    background-image: url('https://kyliecosmetics.com/cdn/shop/files/0928_Holiday_Gift_Sets_Site_Imagery_740x545_Liner_Set_1_1.jpg?crop=center&height=625&v=1702371571&width=476');
+    padding-top: 100px;
+}
+.gifts_title2 h2{
+    color:white;
+    margin-left: 145px;
+    margin-top: 180px;
+    font-size: 30px;
+}
+.test3{
+    width: 470px;
+    height: 500px;
+    background-image: url('https://kyliecosmetics.com/cdn/shop/files/KJC_MULTI_23_Holiday_CP_02_WS_1_f01f97c3-cdff-46f7-b59d-3d5dcfd8e88e.jpg?crop=center&height=625&v=1698389280&width=476');
+    padding-top: 100px;
+}
+.gifts_title3 h2{
+    color:white;
+    margin-left: 125px;
+    margin-top: 180px;
+    font-size: 30px;
+}
+.updates{
+    display: flex;
+    justify-content:center;
+    margin-right: 360px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.for_email p{
+    display: flex;
+    justify-content: center;
+    margin-right: 360px;
+}
+.shop_now p{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 16px 23px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.social_networks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.social_networks img{
+    margin-right: 40px;
+}
+.button{
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 50px;
+
+}
+.button a{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: pink;
+    color:black;
+}
+.button a:hover{
+    background-color: black;
+    color:white;
+}
+.about_us{
+    display: flex;
+    justify-content: space-around;
+}
+.contact h6{
+    display: flex;
+    justify-content: center;
+}
+.coty p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.button3{
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 50px;
+
+}
+.button3 a{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: pink;
+    color:black;
+}
+.button3 a:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
